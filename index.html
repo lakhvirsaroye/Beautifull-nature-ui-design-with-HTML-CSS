@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENVIORMENT WEBSITE PROJECT</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background: url("back3.jpg") no-repeat center/cover;
+        background-position: 0px 0px;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+      }
+      .left img {
+        height: 70px;
+        margin: 20px 20px;
+      }
+
+      .center {
+        display: flex;
+        margin: 0px 10px;
+        justify-content: center;
+        position: absolute;
+        left: 30%;
+        font: 1.4rem sans-serif;
+        font-weight: bold;
+      }
+
+      .right {
+        display: flex;
+        position: absolute;
+        right: 0px;
+      }
+      .searchicon {
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+      }
+      .signup {
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(49, 65, 185);
+        color: rgb(255, 255, 255);
+        padding: 10px 22px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 2px 30px;
+        box-shadow: #3a59b7 1px 1px 7px;
+        cursor: pointer;
+      }
+      .signup:hover {
+        color: black;
+        background-color: #e4e9ef;
+        box-shadow: #ffffff 1px 1px 7px;
+      }
+      .center ul {
+        display: flex;
+      }
+
+      ul li {
+        padding: 2px 20px;
+        justify-content: center;
+        list-style: none;
+      }
+
+      ul li a {
+        color: #fff468;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #fff468;
+        color: rgb(0, 0, 0);
+        padding: 3px 5px;
+        border-radius: 8px;
+      }
+
+      .container {
+        display: inline-block;
+        height: 500px;
+        width: 630px;
+        position: absolute;
+        left: 30px;
+      }
+
+      h2 {
+        color: rgb(225, 235, 93);
+        display: flex;
+        margin-top: 80px;
+        font-size: 3rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      p {
+        color: rgb(255, 249, 249);
+        display: flex;
+        margin-top: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-weight: bold;
+        opacity: 0.4;
+      }
+
+      .but {
+        margin-top: 50px;
+        font-family: monospace;
+      }
+      .booknow {
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(225, 235, 93);
+        color: black;
+        padding: 12px 22px;
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin: 2px 30px;
+        cursor: pointer;
+      }
+      .booknow:hover {
+        background-color: #d8d524; /* Green */
+        color: black;
+        box-shadow: #fff468 1px 1px 7px;
+      }
+
+      .knowmore {
+        border: none;
+        background-color: transparent;
+        color: #e4e9ef;
+        display: inline-block;
+        font-size: 1.4rem;
+        cursor: pointer;
+      }
+
+      .knowmore:hover {
+        text-shadow: #ffffff 1px 1px 6px;
+      }
+
+      .offer {
+        margin-top: 50px;
+        font-family: fantasy;
+      }
+
+      .icons img {
+        width: 30px;
+        margin: 20px 20px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <img src="logo.png" alt="" />
+      </div>
+
+      <div class="center">
+        <ul>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Plant Care</a></li>
+          <li><a href="#">Gmail us</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <a href="https://www.goggle.com"> <img class="searchicon" src="srch.png" alt="" /> </a>    
+        <a href="#"> <button class="signup">SIGN UP</button> </a>    
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="heading">
+        <h2>Planet make a positive impect on your enviorment.</h2>
+      </div>
+
+      <div class="para">
+        <p>
+          Provide your home & office space with the right plants andlet our
+          plant care term keep them flourishing.....
+        </p>
+      </div>
+
+      <div class="but">
+       <a href="#"> <button class="booknow">Book now</button> </a> 
+       <a href="#"> <button class="knowmore">Know more</button> </a>
+      </div>
+
+      <div class="offer">
+        <p>You will get 30 days free trial!</p>
+      </div>
+
+      <div class="icons">
+        <a href="https://www.instagram.com"> <img src="instagram.png" alt="" /> </a>
+
+        <a href="https://www.facebook.com">  <img src="facebook.png" alt="" />  </a>
+
+        <a href="https://www.youtube.com"> <img src="youtube.png" alt="" /> </a>
+
+        <a href="https://www.snapchat.com"> <img src="snapchat.png" alt="" /> </a>
+      </div>
+    </div>
+
+  </body>
+</html>
